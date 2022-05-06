@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainDiv {
+
+    background-color: aqua;
+    width: 100%;
+    height: 40vh;
+    background: fixed;
+    background-image: url("https://wallpapershome.com/images/pages/ico_h/17857.jpg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.mainDiv .nav-link .nav {
+
+    color: skyblue;
+    list-style: none;
+    font-size: 18px;
+    /* margin: 10px; */
+}
+
+.blog_card {
+    padding: 5px;
+}
+
+.blog_card .cards{
+
+    background-color: rgb(252, 252, 252);
+    color: black;
+}
+.blog_card .cards_1{
+
+    background-color: #0af0;
+    color: #fff;
+}
+
+.blog_card .cards .blog_cardTitle {
+
+    font-weight: 500;
+}
+
+.Contact-Main-Div {
+
+    margin: 35px auto;
+}
+
+.container {
+    display: "flex";
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 25px auto;
+}
+
+.header {
+    text-align: "center";
+    background-color: "#212121";
+    color: "#fff";
+}
+
+.cartPage {
+    min-height: calc(100vh - 64px - 260px - 42px);
+}
+
+.CartData {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(223, 223, 223, 0.763);
+}
+
+.CartData img {
+    width: 120px;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.CartData .title {
+    text-align: center;
+}
+
+.CartData .descri {
+    width: 45%;
+    text-align: justify;
+    margin: 10px auto;
+}
+/* Theme */
+.CartDataS {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(51, 49, 49);
+}
+
+.CartDataS img {
+    width: 120px;
+    margin: 10px auto;
+    border-radius: 15px;
+}
+
+.CartDataS .title {
+    text-align: center;
+}
+
+.CartDataS .descri {
+    width: 45%;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+
+@media (max-width:768px) {
+    .CartData .title {
+        font-size: medium;
+    }
+
+    .CartData .descri {
+        font-size: medium;
+        width: 30%;
+    }
+}
+
+@media (max-width:576px) {
+
+    .CartData {
+        display: inline;
+        flex-direction: row;
+    }
+
+    .CartData .title {
+        font-size: medium;
+    }
+
+    .CartData .descri {
+        font-size: medium;
+        width: 90%;
+    }
+}
+
+@media (max-width: 300px) {
+    .blog_card .cards .blog_cardTitle {
+
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .blog_card .cards .blog_cardDesc {
+
+        font-size: small;
+    }
+
+    .blog_card .cards .blog_card_btn {
+
+        font-size: xx-small;
+    }
+}
